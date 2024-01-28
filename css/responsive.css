@@ -1,0 +1,96 @@
+@media (max-width: 1024px) {
+  /* General */
+
+  .bg-image {
+    background-attachment: scroll;
+  }
+
+  @media (min-width: 768px) {
+    .box-shadow {
+      padding: 3rem;
+    }
+  }
+
+
+  /* End General */
+
+  /* header */
+
+  @media (max-width: 1366px) {
+    .navbar .dropdown .dropdown ul {
+      left: -90%;
+    }
+  
+    .navbar .dropdown .dropdown:hover>ul {
+      left: -100%;
+    }
+  }
+
+  @media (max-width: 991px) {
+    .mobile-nav-toggle {
+      display: block;
+    }
+  
+    .navbar ul {
+      display: none;
+    }
+  }
+  
+
+  /* hero */
+  @media (min-width: 768px) {
+    .hero .hero-title {
+      font-size: 4.5rem;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .hero .hero-subtitle {
+      font-size: 2.5rem;
+    }
+  }  
+
+  /* End Hero */
+
+
+  /* About */
+  @media (min-width: 767px) {
+    .about .box-pl2 {
+      margin-top: 3rem;
+      padding-left: 0rem;
+    }
+  }
+
+
+
+
+
+
+  /* End About */
+
+
+  /* counter */
+
+  @media (min-width: 577px) {
+    .counter-box {
+      margin-bottom: 1.8rem;
+    }
+  }
+
+
+
+
+
+
+
+  /* Blog */
+  @media (min-width: 767px) {
+    .card-blog {
+      margin-bottom: 3rem;
+    }
+  }@media (min-width: 767px) {
+    .card-blog {
+      margin-bottom: 3rem;
+    }
+  }
+}
